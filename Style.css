@@ -33,7 +33,7 @@
   }
     strong:hover{
     color: var(--bgheroETshadow);
-    font-size: 2.3rem;
+    font-size: 2.06rem;
     cursor: pointer;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
 
