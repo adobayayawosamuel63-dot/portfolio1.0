@@ -52,7 +52,6 @@
     gap: 5rem;
     background-color: var(--Titreprincipal);
     padding: 5px 35px;
-    /* border: 4px solid var(--nav); */
     border: 4px solid var(--bgheroETshadow);
     box-shadow: 2px 4px 6px var(--Titreprincipal);
     border-radius: 45px;
@@ -91,4 +90,52 @@ h1 {
     font-size: 1.5rem;
     text-align: left;
     padding-left: 50px;
+}
+
+@media screen and (max-width: 1352px) {
+    *{
+        font-size: 10px;
+    }
+    .hero-items{
+    display: flex;
+}
+.nav{
+    /* background-image: linear-gradient(to top left, #EF7E02, #030A09); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    background-color: var(--Titreprincipal);
+    border: 4px solid var(--bgheroETshadow);
+    box-shadow: 2px 4px 6px var(--Titreprincipal);
+    border-radius: 45px;
+}
+.logo {
+  font-family: "Goldman", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.3rem;
+  color: var(--bgheroETshadow);
+}
+ strong{
+    cursor: pointer;
+    transition: 1s;
+  }
+    strong:hover{
+    color: var(--bgheroETshadow);
+    font-size: 1.4rem;
+    cursor: pointer;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
+
+  }
+
+  .image-contact>img{
+    width: 250px;
+  }
+}
+@media screen and (max-width : 590px) {
+    .hero-items{
+    display: flex;
+    flex-wrap: wrap;
+}
 }
