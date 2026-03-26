@@ -143,4 +143,17 @@ h1 {
     text-align: left;
     padding-left: 0px;
 }
+header{
+    align-items: center;
 }
+.nav{
+    /* background-image: linear-gradient(to top left, #EF7E02, #030A09); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--Titreprincipal);
+    border: 3px solid var(--bgheroETshadow);
+    box-shadow: 2px 4px 6px var(--Titreprincipal);
+    border-radius: 45px;
+} }
