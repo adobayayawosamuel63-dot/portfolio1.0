@@ -401,6 +401,11 @@ header{
     font-size: 1.5rem;
     text-align: left;
 }
+h1{
+  font-size: medium;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
 .hero-items{
     display: flex;
     justify-content: center;
