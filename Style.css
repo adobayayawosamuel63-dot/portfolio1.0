@@ -589,7 +589,7 @@ h3{
 .projets-container{
   margin: 0 auto;
   
-  padding-left:27% !important;
+  padding-left:24% !important;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 20px;
