@@ -432,7 +432,7 @@ h2{
 
 .projets-container{
   margin: 0 auto;
-  /* padding-left: 19%; */
+  padding-left: 2%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 15px;
@@ -460,7 +460,7 @@ h2{
   height:100vh;
   background-color: var(--Titreprincipal);
 }
-/* From Uiverse.io by codebykay101 */ 
+
 .container {
   position: relative;
   display: flex;
@@ -615,6 +615,14 @@ h3{
 
 
 }
+.container .glass {
+  position: relative;
+  width: 160px;
+  height: 180px;
+}
+.container {
+padding-top: 140px;
+}
 
 .cartProjet {
   position: relative;
@@ -707,11 +715,11 @@ header{
     margin-bottom: 2px;
 }
 .button-explore {
-
   width: 300px;
   display: flex;
   align-items: center;
   justify-content: flex-start; 
+  margin-left: 34%;
   gap: 10px;
   background-color: var(--Navhover);
   border-radius: 30px;
@@ -765,11 +773,11 @@ h1{
 }
 
 
-.mobile{
+.logo-mobile{
     border: 1px solid var(--nav);
     border-radius: 18px;
-    padding: 15px 25px;
-    display: flex;
+    padding: 14px 15px;
+   font-family: "Goldman", sans-serif;
     align-items: start;    
     justify-content: center;
     box-shadow: 1px 3px 12px #0E181A;
