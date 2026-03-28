@@ -688,6 +688,12 @@ h3{
   height: 25px;
   transition-duration: 1.5s;
 }
+.projets-text{
+  background-color: black;
+}
+#contacts{
+  margin-top: 398px;
+}
 
 .description{
     font-size: 1rem;
@@ -757,6 +763,7 @@ h1{
 #profil{
     padding-left: 0;
 }
+
 
 .mobile{
     border: 1px solid var(--nav);
