@@ -616,6 +616,10 @@ h3{
 
 }
 
+#projets{
+height: auto;
+}
+
 .container .glass {
   position: relative;
   width: 160px;
@@ -679,10 +683,7 @@ padding-top: 140px;
   align-items: center;
 
 }
-.image-retouch{
 
-
-}
 h3{
   padding-top: 3px;
   padding-bottom:0;
